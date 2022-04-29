@@ -129,7 +129,7 @@ class Bubble {
         this.radius = 50;
         this.speed = Math.random() * -5 + -1;
         this.distance;
-        this.sound = Math.random() <= 0.5 ? 'sound1' : 'sound2'; //buggy sound
+        this.sound = Math.random() <= 0.5;
         this.counted = false;
         this.frameX = 0;
         this.spriteWidth = 91;
